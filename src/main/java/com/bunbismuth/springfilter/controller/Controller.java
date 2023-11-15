@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class PedidosController {
+public class Controller {
 
-  private static final Logger LOGGER = LoggerFactory.getLogger(PedidosController.class);
+  private static final Logger LOGGER = LoggerFactory.getLogger(Controller.class);
 
   @RequestMapping("/pedidos")
   public String getPedido() {
